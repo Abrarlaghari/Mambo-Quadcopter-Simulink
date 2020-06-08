@@ -1,0 +1,350 @@
+Memory from 0x8000 to 0x1f9000 locked
+Memory from 0x200000 to 0x205000 locked
+/tmp/.dragon-prog.lock locked.
+Setting PWM frequency: reg value 0x0
+INIT libVision with [160 x 120]
+rsedu_control(): Control processing thread id = 1082430560 
+rsedu_control(): Control thread policy = 2 pri=32
+rsedu_control(): Battery output voltage Integrated:  4.08 V - 100 percents
+rsedu_control(): used: 0, users: 0, gyrotemp 47.406471, acctemp 0.000000, presstmp 38.939999 
+In ptimer_init; Fullpath for ptimes: /tmp/edu/ptimes/pt_RSEDU_control.txt 
+rsedu_control(): Waiting for optical flow connection...
+rsedu_control(): Got optical flow connection, 51!
+create_referencevalserver_thread(): stack size before reference value thread creation 8388608 err=0
+create_referencevalserver_thread(): reference value server thread id = 1082430560 
+create_referencevalserver_thread(): reference value server  policy = 2 pri=32
+create_referencevalserver_thread(): Reference Server Thread created successfully
+create_referencevalserver_thread(): stacksize after reference thread creation 16384 
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 0.000000meters, pressure: 101728.078125pascal, gyrotemp: 47.415295celsius
+rsedu_control(): gyro x: -0.036939rad/s, y: -0.040586rad/s, z: 0.003187rad/s
+rsedu_control(): accel x: -0.040256m/s2, y: -0.050050m/s2, z: -9.441193m/s2
+rsedu_control(): Battery output voltage Integrated:  4.07V - 100 percents
+keyboardserver_thread(): Entered the Keyboard Server thread... 
+keyboardserver_thread(): Successfully created socket... 
+keyboardserver_thread(): Bind socket... 
+keyboardserver_thread(): Bind completed .. listening to the socket !
+rsedu_of(): SUCCESS optical flow FIFO exists! 
+In ptimer_init; Fullpath for ptimes: /tmp/edu/ptimes/pt_RSEDU_optical_flow.txt 
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 0.998413meters, pressure: 101727.976562pascal, gyrotemp: 47.430000celsius
+rsedu_control(): gyro x: -0.036939rad/s, y: -0.041655rad/s, z: 0.004251rad/s
+rsedu_control(): accel x: -0.045041m/s2, y: -0.093292m/s2, z: -9.498524m/s2
+rsedu_control(): Battery output voltage Integrated:  4.07V - 100 percents
+rsedu_of(): flow: (0.007009, 0.001261, 0.000000, 1.000000, 0.500000)
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 1.066516meters, pressure: 101727.562500pascal, gyrotemp: 47.438824celsius
+rsedu_control(): gyro x: -0.035883rad/s, y: -0.041655rad/s, z: 0.002123rad/s
+rsedu_control(): accel x: -0.045041m/s2, y: -0.074073m/s2, z: -9.402972m/s2
+rsedu_control(): Battery output voltage Integrated:  4.07V - 100 percents
+rsedu_of(): flow: (0.085195, 0.084074, 0.000000, 1.000000, 0.500000)
+keyboardserver_thread(): Received connection from the host! 
+rsedu_control(): Waiting for takeoff command from host! 
+ TakeOff Sequence Initiated !! 
+The flight duration is set to Simulation Stop Time of = 37 seconds and powergain is set to = 100
+rsedu_control(): Simulink model init started! 
+rsedu_control(): Simulink model init completed! 
+rsedu_control(): Initializing Calibration Data! 
+rsedu_control(): Drone Motors Activated! 
+rsedu_of(): flow: (-0.022097, 0.009561, 0.000000, 1.000000, 0.500000)
+rsedu_control(): Calibrating Data . . . 
+rsedu_of(): flow: (0.019747, 0.042367, 0.000000, 1.000000, 0.500000)
+rsedu_control(): Batterylevel: 100.000000
+rsedu_control(): Sensorcal: -0.046491 :: -0.081050 :: -9.440272 :: -0.036851 :: -0.041769 :: 0.003165 :: 101728.273438 :: 1.011106 
+ *************************************** Data_block_start *************************************************** 
+rsedu_control(): Motors Powered. Ready for Take-Off ! 
+rsedu_of(): flow: (0.043477, -0.178386, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 600 **** 
+rsedu_control(): sonar altitude: 0.684883meters, pressure: 101717.578125pascal, gyrotemp: 47.647648celsius
+rsedu_control(): gyro x: -0.111961rad/s, y: -0.395544rad/s, z: -0.007457rad/s
+rsedu_control(): accel x: 0.529148m/s2, y: 0.617799m/s2, z: -10.277268m/s2
+rsedu_control(): Battery output voltage Integrated:  3.94V - 100 percents
+rsedu_control(): motor values : 286.045380 -281.704590 270.621613 -268.647430
+rsedu_of(): flow: (-0.929326, -0.202878, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 800 **** 
+rsedu_control(): sonar altitude: 0.728571meters, pressure: 101717.062500pascal, gyrotemp: 47.882942celsius
+rsedu_control(): gyro x: -0.011580rad/s, y: 0.115509rad/s, z: 0.001058rad/s
+rsedu_control(): accel x: 1.007638m/s2, y: -0.069269m/s2, z: -9.699182m/s2
+rsedu_control(): Battery output voltage Integrated:  3.91V - 100 percents
+rsedu_control(): motor values : 298.926727 -302.620270 288.457123 -288.960052
+rsedu_of(): flow: (-0.136876, 0.047169, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 1000 **** 
+rsedu_control(): sonar altitude: 0.696447meters, pressure: 101718.796875pascal, gyrotemp: 48.203529celsius
+rsedu_control(): gyro x: -0.044336rad/s, y: -0.039517rad/s, z: 0.003187rad/s
+rsedu_control(): accel x: -1.092935m/s2, y: -0.674658m/s2, z: -9.254867m/s2
+rsedu_control(): Battery output voltage Integrated:  3.90V - 100 percents
+rsedu_control(): motor values : 296.279327 -307.468933 279.823975 -288.944305
+rsedu_of(): flow: (-0.022736, 0.050291, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 1200 **** 
+rsedu_control(): sonar altitude: 0.702872meters, pressure: 101717.703125pascal, gyrotemp: 48.609413celsius
+rsedu_control(): gyro x: 0.019063rad/s, y: -0.066246rad/s, z: -0.006392rad/s
+rsedu_control(): accel x: 0.103291m/s2, y: 0.271863m/s2, z: -9.493746m/s2
+rsedu_control(): Battery output voltage Integrated:  3.90V - 100 percents
+rsedu_control(): motor values : 294.713379 -308.201599 282.045837 -289.273743
+rsedu_of(): flow: (-0.006628, 0.014812, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 1400 **** 
+rsedu_control(): sonar altitude: 0.700302meters, pressure: 101717.726562pascal, gyrotemp: 48.988823celsius
+rsedu_control(): gyro x: -0.027429rad/s, y: -0.025618rad/s, z: 0.006380rad/s
+rsedu_control(): accel x: -0.332135m/s2, y: -0.900477m/s2, z: -8.743666m/s2
+rsedu_control(): Battery output voltage Integrated:  3.89V - 100 percents
+rsedu_control(): motor values : 296.535126 -302.958649 283.517059 -289.892303
+rsedu_of(): flow: (0.029345, 0.021406, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 1600 **** 
+rsedu_control(): sonar altitude: 0.702872meters, pressure: 101721.414062pascal, gyrotemp: 49.338825celsius
+rsedu_control(): gyro x: -0.060185rad/s, y: -0.044863rad/s, z: 0.006380rad/s
+rsedu_control(): accel x: 0.557857m/s2, y: -1.039813m/s2, z: -9.230979m/s2
+rsedu_control(): Battery output voltage Integrated:  3.88V - 100 percents
+rsedu_control(): motor values : 298.813385 -302.506165 285.144958 -291.257843
+rsedu_of(): flow: (-0.019665, 0.000595, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 1800 **** 
+rsedu_control(): sonar altitude: 0.702872meters, pressure: 101719.726562pascal, gyrotemp: 49.688824celsius
+rsedu_control(): gyro x: -0.058072rad/s, y: -0.033102rad/s, z: 0.009573rad/s
+rsedu_control(): accel x: 0.629631m/s2, y: 1.035806m/s2, z: -9.928505m/s2
+rsedu_control(): Battery output voltage Integrated:  3.88V - 100 percents
+rsedu_control(): of: 0.021661 0.033731 0.000000 
+rsedu_control(): motor values : 301.006104 -298.477448 288.224579 -289.414856
+rsedu_of(): flow: (0.015476, 0.053807, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 2000 **** 
+rsedu_control(): sonar altitude: 0.701587meters, pressure: 101718.062500pascal, gyrotemp: 50.062351celsius
+rsedu_control(): gyro x: -0.037996rad/s, y: -0.063038rad/s, z: 0.006380rad/s
+rsedu_control(): accel x: -0.547456m/s2, y: -1.174344m/s2, z: -9.025543m/s2
+rsedu_control(): Battery output voltage Integrated:  3.87V - 100 percents
+rsedu_control(): motor values : 304.243927 -297.613953 290.346008 -287.834808
+rsedu_of(): flow: (0.054832, -0.002039, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 2200 **** 
+rsedu_control(): sonar altitude: 0.704157meters, pressure: 101717.992188pascal, gyrotemp: 50.418236celsius
+rsedu_control(): gyro x: -0.055959rad/s, y: -0.027757rad/s, z: -0.005328rad/s
+rsedu_control(): accel x: 0.352106m/s2, y: 0.661041m/s2, z: -9.785178m/s2
+rsedu_control(): Battery output voltage Integrated:  3.87V - 100 percents
+rsedu_control(): motor values : 302.219574 -298.725433 290.899963 -288.074738
+rsedu_of(): flow: (-0.016364, 0.087949, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 2400 **** 
+rsedu_control(): sonar altitude: 0.704157meters, pressure: 101717.773438pascal, gyrotemp: 50.727058celsius
+rsedu_control(): gyro x: -0.009466rad/s, y: -0.049139rad/s, z: 0.001058rad/s
+rsedu_control(): accel x: -0.179018m/s2, y: 0.315105m/s2, z: -9.981059m/s2
+rsedu_control(): Battery output voltage Integrated:  3.86V - 100 percents
+rsedu_control(): motor values : 300.752167 -302.575439 288.897552 -291.144897
+rsedu_of(): flow: (0.069206, -0.014287, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 2600 **** 
+rsedu_control(): sonar altitude: 0.958579meters, pressure: 101715.429688pascal, gyrotemp: 51.038822celsius
+rsedu_control(): gyro x: 0.006384rad/s, y: -0.089767rad/s, z: -0.001071rad/s
+rsedu_control(): accel x: 0.055442m/s2, y: 0.238230m/s2, z: -9.923728m/s2
+rsedu_control(): Battery output voltage Integrated:  3.86V - 100 percents
+rsedu_control(): of: -0.030969 0.006133 0.000000 
+rsedu_control(): motor values : 307.256165 -304.070526 295.276215 -289.792633
+rsedu_of(): flow: (0.021486, -0.058007, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 2800 **** 
+rsedu_control(): sonar altitude: 0.943160meters, pressure: 101717.671875pascal, gyrotemp: 51.341766celsius
+rsedu_control(): gyro x: 0.040196rad/s, y: -0.192405rad/s, z: -0.003199rad/s
+rsedu_control(): accel x: 1.088981m/s2, y: -0.386377m/s2, z: -10.492260m/s2
+rsedu_control(): Battery output voltage Integrated:  3.84V - 100 percents
+rsedu_control(): of: -0.041216 -0.024314 0.000000 
+rsedu_control(): motor values : 325.369659 -328.640961 309.014038 -306.180115
+rsedu_of(): flow: (0.064574, 0.026184, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 3000 **** 
+rsedu_control(): sonar altitude: 0.994558meters, pressure: 101714.109375pascal, gyrotemp: 51.647648celsius
+rsedu_control(): gyro x: 0.053933rad/s, y: -0.079076rad/s, z: -0.017036rad/s
+rsedu_control(): accel x: 1.246883m/s2, y: 0.214207m/s2, z: -9.656183m/s2
+rsedu_control(): Battery output voltage Integrated:  3.84V - 100 percents
+rsedu_control(): motor values : 309.223846 -321.054077 297.790924 -303.237427
+rsedu_of(): flow: (-0.010945, -0.089722, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 3200 **** 
+rsedu_control(): sonar altitude: 1.020257meters, pressure: 101714.085938pascal, gyrotemp: 51.906471celsius
+rsedu_control(): gyro x: -0.095055rad/s, y: -0.034171rad/s, z: -0.000006rad/s
+rsedu_control(): accel x: 0.031518m/s2, y: 0.685065m/s2, z: -9.656183m/s2
+rsedu_control(): Battery output voltage Integrated:  3.85V - 100 percents
+rsedu_control(): of: -0.018317 0.117002 0.000000 
+rsedu_control(): motor values : 298.909973 -298.876526 287.719635 -284.129822
+rsedu_of(): flow: (-0.117753, 0.068552, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 3400 **** 
+rsedu_control(): sonar altitude: 0.993273meters, pressure: 101714.429688pascal, gyrotemp: 52.200588celsius
+rsedu_control(): gyro x: 0.013780rad/s, y: -0.071592rad/s, z: 0.010637rad/s
+rsedu_control(): accel x: 1.041132m/s2, y: -0.376768m/s2, z: -9.498524m/s2
+rsedu_control(): Battery output voltage Integrated:  3.84V - 100 percents
+rsedu_control(): of: 0.030638 -0.007895 0.000000 
+rsedu_control(): motor values : 310.596985 -301.602844 299.268097 -280.751373
+rsedu_of(): flow: (0.036601, -0.152702, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 3600 **** 
+rsedu_control(): sonar altitude: 0.997128meters, pressure: 101714.523438pascal, gyrotemp: 52.465294celsius
+rsedu_control(): gyro x: -0.106678rad/s, y: -0.072661rad/s, z: 0.003187rad/s
+rsedu_control(): accel x: 1.433494m/s2, y: 0.363152m/s2, z: -9.766068m/s2
+rsedu_control(): Battery output voltage Integrated:  3.84V - 100 percents
+rsedu_control(): of: 0.004676 0.076066 0.000000 
+rsedu_control(): motor values : 309.974243 -302.259949 295.397827 -288.673645
+rsedu_of(): flow: (-0.089739, 0.084890, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 3800 **** 
+rsedu_control(): sonar altitude: 1.002268meters, pressure: 101713.210938pascal, gyrotemp: 52.724117celsius
+rsedu_control(): gyro x: -0.024259rad/s, y: -0.030964rad/s, z: 0.020217rad/s
+rsedu_control(): accel x: 1.194249m/s2, y: 0.757135m/s2, z: -9.565410m/s2
+rsedu_control(): Battery output voltage Integrated:  3.85V - 100 percents
+rsedu_control(): motor values : 308.491943 -296.193970 294.977264 -280.846924
+rsedu_of(): flow: (-0.029023, -0.000802, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 4000 **** 
+rsedu_control(): sonar altitude: 0.954724meters, pressure: 101714.546875pascal, gyrotemp: 52.953529celsius
+rsedu_control(): gyro x: -0.035883rad/s, y: -0.037379rad/s, z: 0.022345rad/s
+rsedu_control(): accel x: 0.088936m/s2, y: -0.592978m/s2, z: -9.054209m/s2
+rsedu_control(): Battery output voltage Integrated:  3.83V - 100 percents
+rsedu_control(): of: -0.005118 0.012092 0.000000 
+rsedu_control(): motor values : 315.447021 -306.037689 301.802673 -289.866943
+rsedu_of(): flow: (0.084997, 0.080442, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 4200 **** 
+rsedu_control(): sonar altitude: 0.976568meters, pressure: 101716.921875pascal, gyrotemp: 53.182941celsius
+rsedu_control(): gyro x: -0.016863rad/s, y: 0.051361rad/s, z: 0.003187rad/s
+rsedu_control(): accel x: 0.548287m/s2, y: 0.098895m/s2, z: -9.742180m/s2
+rsedu_control(): Battery output voltage Integrated:  3.82V - 100 percents
+rsedu_control(): motor values : 313.005432 -320.517303 302.440430 -302.089203
+rsedu_of(): flow: (0.069946, 0.099980, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 4400 **** 
+rsedu_control(): sonar altitude: 0.999698meters, pressure: 101716.750000pascal, gyrotemp: 53.427059celsius
+rsedu_control(): gyro x: -0.013693rad/s, y: -0.125049rad/s, z: 0.005316rad/s
+rsedu_control(): accel x: 1.031563m/s2, y: 0.536120m/s2, z: -9.555854m/s2
+rsedu_control(): Battery output voltage Integrated:  3.83V - 100 percents
+rsedu_control(): motor values : 310.770874 -306.765869 303.341705 -286.318420
+rsedu_of(): flow: (-0.022851, 0.017004, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 4600 **** 
+rsedu_control(): sonar altitude: 1.006122meters, pressure: 101717.992188pascal, gyrotemp: 53.665295celsius
+rsedu_control(): gyro x: -0.046449rad/s, y: -0.113288rad/s, z: 0.005316rad/s
+rsedu_control(): accel x: 0.270763m/s2, y: 0.334324m/s2, z: -9.555854m/s2
+rsedu_control(): Battery output voltage Integrated:  3.83V - 100 percents
+rsedu_control(): motor values : 312.816772 -296.438324 302.190186 -276.090210
+rsedu_of(): flow: (-0.058287, -0.132973, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 4800 **** 
+rsedu_control(): sonar altitude: 0.981708meters, pressure: 101720.140625pascal, gyrotemp: 53.838825celsius
+rsedu_control(): gyro x: -0.014749rad/s, y: -0.096182rad/s, z: 0.003187rad/s
+rsedu_control(): accel x: 0.883230m/s2, y: 0.329519m/s2, z: -9.813844m/s2
+rsedu_control(): Battery output voltage Integrated:  3.82V - 100 percents
+rsedu_control(): motor values : 319.234741 -309.053040 310.386597 -284.655579
+rsedu_of(): flow: (-0.019967, 0.004825, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 5000 **** 
+rsedu_control(): sonar altitude: 1.008692meters, pressure: 101715.164062pascal, gyrotemp: 54.062351celsius
+rsedu_control(): gyro x: -0.015806rad/s, y: -0.050209rad/s, z: -0.020229rad/s
+rsedu_control(): accel x: 0.935864m/s2, y: -0.141339m/s2, z: -9.068542m/s2
+rsedu_control(): Battery output voltage Integrated:  3.82V - 100 percents
+rsedu_control(): motor values : 305.465607 -305.339813 292.808380 -290.578339
+rsedu_of(): flow: (-0.019809, -0.061577, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 5200 **** 
+rsedu_control(): sonar altitude: 0.989418meters, pressure: 101715.453125pascal, gyrotemp: 54.259411celsius
+rsedu_control(): gyro x: -0.030599rad/s, y: -0.127187rad/s, z: -0.018100rad/s
+rsedu_control(): accel x: 0.754038m/s2, y: -0.179776m/s2, z: -9.364751m/s2
+rsedu_control(): Battery output voltage Integrated:  3.81V - 100 percents
+rsedu_control(): of: -0.061508 -0.095859 0.000000 
+rsedu_control(): motor values : 316.055237 -306.856628 296.635162 -295.122284
+rsedu_of(): flow: (-0.101675, -0.067333, 0.000000, 1.000000, 0.500000)
+rsedu_of(): flow: (-0.113200, 0.011288, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 5400 **** 
+rsedu_control(): sonar altitude: 1.096070meters, pressure: 101714.671875pascal, gyrotemp: 54.471176celsius
+rsedu_control(): gyro x: -0.025316rad/s, y: -0.101528rad/s, z: -0.020229rad/s
+rsedu_control(): accel x: -1.351320m/s2, y: 0.540925m/s2, z: -7.859814m/s2
+rsedu_control(): Battery output voltage Integrated:  3.83V - 100 percents
+rsedu_control(): motor values : 291.990051 -287.053467 271.730377 -280.296997
+rsedu_of(): flow: (0.143625, 0.304582, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 5600 **** 
+rsedu_control(): sonar altitude: 0.746561meters, pressure: 101718.750000pascal, gyrotemp: 54.653530celsius
+rsedu_control(): gyro x: -0.119358rad/s, y: -0.019203rad/s, z: 0.002123rad/s
+rsedu_control(): accel x: 0.050657m/s2, y: -1.284851m/s2, z: -9.560632m/s2
+rsedu_control(): Battery output voltage Integrated:  3.80V - 100 percents
+rsedu_control(): of: 0.133848 0.532029 0.000000 
+rsedu_control(): motor values : 320.965668 -310.254700 307.675201 -297.450073
+rsedu_of(): flow: (-0.016054, -0.366024, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 5800 **** 
+rsedu_control(): sonar altitude: 0.722147meters, pressure: 101717.992188pascal, gyrotemp: 54.809410celsius
+rsedu_control(): gyro x: 0.203977rad/s, y: -0.100459rad/s, z: -0.001071rad/s
+rsedu_control(): accel x: -0.757991m/s2, y: 0.329519m/s2, z: -8.939547m/s2
+rsedu_control(): Battery output voltage Integrated:  3.82V - 100 percents
+rsedu_control(): motor values : 309.952271 -292.126099 308.379822 -271.380066
+rsedu_of(): flow: (0.049444, 0.155499, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 6000 **** 
+rsedu_control(): sonar altitude: 0.702872meters, pressure: 101718.992188pascal, gyrotemp: 55.009411celsius
+rsedu_control(): gyro x: -0.267289rad/s, y: -0.005304rad/s, z: 0.013830rad/s
+rsedu_control(): accel x: -0.073750m/s2, y: -0.799579m/s2, z: -8.987323m/s2
+rsedu_control(): Battery output voltage Integrated:  3.81V - 100 percents
+rsedu_control(): motor values : 318.928802 -292.505615 307.706512 -287.211731
+rsedu_of(): flow: (0.050767, -0.663473, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 6200 **** 
+rsedu_control(): sonar altitude: 0.708012meters, pressure: 101717.750000pascal, gyrotemp: 55.177059celsius
+rsedu_control(): gyro x: 0.229337rad/s, y: -0.067315rad/s, z: 0.006380rad/s
+rsedu_control(): accel x: -0.829765m/s2, y: -0.054855m/s2, z: -9.202313m/s2
+rsedu_control(): Battery output voltage Integrated:  3.81V - 100 percents
+rsedu_control(): of: -0.019944 -0.613472 0.000000 
+rsedu_control(): motor values : 315.628662 -297.377319 311.170105 -279.162323
+rsedu_of(): flow: (0.095840, 0.786147, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 6400 **** 
+rsedu_control(): sonar altitude: 0.700302meters, pressure: 101720.609375pascal, gyrotemp: 55.353531celsius
+rsedu_control(): gyro x: -0.407824rad/s, y: -0.061969rad/s, z: 0.013830rad/s
+rsedu_control(): accel x: 1.352151m/s2, y: -0.347940m/s2, z: -9.918950m/s2
+rsedu_control(): Battery output voltage Integrated:  3.80V - 99 percents
+rsedu_control(): motor values : 328.669952 -292.825226 313.506897 -288.482239
+rsedu_of(): flow: (1.530384, 0.035695, 0.000000, 1.000000, 0.500000)
+
+ **** Sensor Values when counter = 6600 **** 
+rsedu_control(): sonar altitude: 0.434316meters, pressure: 101724.312500pascal, gyrotemp: 55.503529celsius
+rsedu_control(): gyro x: 0.136352rad/s, y: 0.150791rad/s, z: -0.031937rad/s
+rsedu_control(): accel x: 0.275548m/s2, y: 0.766744m/s2, z: -10.735916m/s2
+rsedu_control(): Battery output voltage Integrated:  3.79V - 98 percents
+rsedu_control(): of: 0.088447 0.221842 0.000000 
+rsedu_control(): motor values : 334.292938 -310.844849 330.362305 -290.591644
+ Emergency Landing Sequence Initiated !! 
+rsedu_control(): Flight abort request: shutting down motors now
+rsedu_control():Saving logged data after 6633 cycles... 
+*** Log variable rt_tout has wrapped 6 times
+    using a circular buffer of size 1000
+*** Log variable time has wrapped 6 times
+    using a circular buffer of size 1000
+*** Log variable values has wrapped 6 times
+    using a circular buffer of size 1000
+*** Log variable values has wrapped 6 times
+    using a circular buffer of size 1000
+** created /data/edu/RSdata.mat **
+
+rsedu_control(): Saving logged data... DONE 
+rsedu_control(): Flight Completed after 6633 cycles ... DONE 
+rsedu_control(): Good night! 
+ 
+Shut down and clean up
+----------------------
+Setting PWM frequency: reg value 0x0
+Setting PWM 0 0 0 0
+Flushing filesystems...
+    flush done.
+Dragon returned = 
+############################
+Recorded ptimes moved from tmp to ftp-folder

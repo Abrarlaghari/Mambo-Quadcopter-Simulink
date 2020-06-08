@@ -1,0 +1,11 @@
+clear all;
+xx=0:.1:20;
+figure(1);
+params=[.7 .7 2 4];
+plot(xx,distendmf(xx,params));
+hold on;
+params=[.7 .7 2 8];
+plot(xx,distendmf(xx,params));
+hold on;
+params=[.7 .7 2 15];
+plot(xx,distendmf(xx,params));

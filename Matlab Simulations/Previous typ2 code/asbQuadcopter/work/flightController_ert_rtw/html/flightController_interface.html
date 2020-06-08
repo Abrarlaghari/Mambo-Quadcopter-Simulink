@@ -1,0 +1,960 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><link rel="stylesheet" type="text/css" href="rtwreport.css" /><script language="JavaScript" type="text/javascript">function rtwTableShrink(o) {var t = o.nextSibling;if (t.nodeType != 1) {t = t.nextSibling;}if (t.style.display == "none") {t.style.display = "";o.innerHTML = "[-]"} else {t.style.display = "none";o.innerHTML = "[+] ... "}}</script><script language="JavaScript" type="text/javascript" src="rtwreport_utils.js"></script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>
+Code Interface Report for flightController
+</title>
+
+</head>
+<body ONLOAD="try {if (top) {if (top.rtwPageOnLoad) top.rtwPageOnLoad('rtwIdCodeInterface'); else local_onload();}} catch(err) {};">
+<h1>
+Code Interface Report for flightController
+</h1>
+<h3>
+Table of Contents
+</h3>
+<ul>
+<li>
+<a href="#sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</li>
+<li>
+<a href="#sec_Inports">
+Inports
+</a>
+
+</li>
+<li>
+<a href="#sec_Outports">
+Outports
+</a>
+
+</li>
+<li>
+<a href="#sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</li>
+<li>
+<a href="#sec_Data_Stores">
+Data Stores
+</a>
+
+</li>
+
+</ul>
+<h3>
+<a name="sec_Entry-Point_Functions">
+Entry-Point Functions
+</a>
+
+</h3>
+<p>
+Function: <a href="flightController_c.html#fcn_flightController_initialize">flightController_initialize</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void flightController_initialize(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Initialization entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="flightController_h.html">flightController.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="flightController_c.html#fcn_flightController_run">flightController_run</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void flightController_run(const CommandBus&nbsp;*arg_ReferenceValueServerBus, const statesEstim_t&nbsp;*arg_states_estim, real32_T arg_motors_refout[4], real32_T arg_pose_refout[8])
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Output entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called periodically, every 0.005 seconds
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th align="left" valign="top">
+<b>
+#
+</b>
+
+</th>
+<th align="left" valign="top">
+<b>
+Name
+</b>
+
+</th>
+<th align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th align="left" valign="top">
+<b>
+Description
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td align="right" valign="top">
+1
+</td>
+<td align="left" valign="top">
+arg_ReferenceValueServerBus
+</td>
+<td align="left" valign="top">
+const CommandBus&nbsp;*
+</td>
+<td align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:315')" name="code2model" class="code2model">&lt;Root&gt;/ReferenceValueServerBus</a>
+</td>
+
+</tr>
+<tr class="odd">
+<td align="right" valign="top">
+2
+</td>
+<td align="left" valign="top">
+arg_states_estim
+</td>
+<td align="left" valign="top">
+const statesEstim_t&nbsp;*
+</td>
+<td align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:316')" name="code2model" class="code2model">&lt;Root&gt;/states_estim</a>
+</td>
+
+</tr>
+<tr class="even">
+<td align="right" valign="top">
+3
+</td>
+<td align="left" valign="top">
+arg_motors_refout
+</td>
+<td align="left" valign="top">
+real32_T
+</td>
+<td align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:401')" name="code2model" class="code2model">&lt;Root&gt;/motors_refout</a>
+</td>
+
+</tr>
+<tr class="odd">
+<td align="right" valign="top">
+4
+</td>
+<td align="left" valign="top">
+arg_pose_refout
+</td>
+<td align="left" valign="top">
+real32_T
+</td>
+<td align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:402')" name="code2model" class="code2model">&lt;Root&gt;/pose_refout</a>
+</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="flightController_h.html">flightController.h</a>
+</td>
+
+</tr>
+
+</table>
+<p>
+Function: <a href="flightController_c.html#fcn_flightController_terminate">flightController_terminate</a>
+</p>
+<table width="100%" class="AltRow" cellspacing="0">
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Prototype
+</td>
+<td width="75%" align="left" valign="top">
+<b>
+void flightController_terminate(void)
+</b>
+
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Description
+</td>
+<td width="75%" align="left" valign="top">
+Termination entry point of generated code
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Timing
+</td>
+<td width="75%" align="left" valign="top">
+Must be called exactly once
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Arguments
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="even">
+<td width="25%" align="left" valign="top">
+Return value
+</td>
+<td width="75%" align="left" valign="top">
+None
+</td>
+
+</tr>
+<tr class="odd">
+<td width="25%" align="left" valign="top">
+Header file
+</td>
+<td width="75%" align="left" valign="top">
+<a href="flightController_h.html">flightController.h</a>
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Inports">
+Inports
+</a>
+
+</h3>
+<table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Block Name
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:315')" name="code2model" class="code2model">&lt;Root&gt;/ReferenceValueServerBus</a>
+</td>
+<td width="26%" align="left" valign="top">
+<i>
+Defined externally
+</i>
+
+</td>
+<td width="21%" align="left" valign="top">
+CommandBus
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:316')" name="code2model" class="code2model">&lt;Root&gt;/states_estim</a>
+</td>
+<td width="26%" align="left" valign="top">
+<i>
+Defined externally
+</i>
+
+</td>
+<td width="21%" align="left" valign="top">
+statesEstim_t
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Outports">
+Outports
+</a>
+
+</h3>
+<table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Block Name
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:401')" name="code2model" class="code2model">&lt;Root&gt;/motors_refout</a>
+</td>
+<td width="26%" align="left" valign="top">
+<i>
+Defined externally
+</i>
+
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[4]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:402')" name="code2model" class="code2model">&lt;Root&gt;/pose_refout</a>
+</td>
+<td width="26%" align="left" valign="top">
+<i>
+Defined externally
+</i>
+
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[8]
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Interface_Parameters">
+Interface Parameters
+</a>
+
+</h3>
+<span title="Click to shrink or expand table" onclick="rtwTableShrink(this)">[-]</span><table width="100%" class="AltRow FirstColumn" cellspacing="0">
+<tr class="heading">
+<th width="42%" align="left" valign="top">
+<b>
+Parameter Source
+</b>
+
+</th>
+<th width="26%" align="left" valign="top">
+<b>
+Code Identifier
+</b>
+
+</th>
+<th width="21%" align="left" valign="top">
+<b>
+Data Type
+</b>
+
+</th>
+<th width="10%" align="right" valign="top">
+<b>
+Dimension
+</b>
+
+</th>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:448')" name="code2model" class="code2model">&lt;S3&gt;/TorqueTotalThrustToThrustPerMotor</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.TorqueTotalThrustToThrustPerMotor_Value
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[4  4]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:522')" name="code2model" class="code2model">&lt;S2&gt;/w0</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.w0_Value
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:587')" name="code2model" class="code2model">&lt;S2&gt;/Gain3</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Gain3_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:568')" name="code2model" class="code2model">&lt;S2&gt;/Gain</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Gain_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:569')" name="code2model" class="code2model">&lt;S2&gt;/Gain1</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Gain1_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:570')" name="code2model" class="code2model">&lt;S2&gt;/Gain2</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Gain2_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:511')" name="code2model" class="code2model">&lt;S2&gt;/SaturationThrust</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.SaturationThrust_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:511')" name="code2model" class="code2model">&lt;S2&gt;/SaturationThrust</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.SaturationThrust_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:496')" name="code2model" class="code2model">&lt;S10&gt;/P_yaw</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.P_yaw_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:492')" name="code2model" class="code2model">&lt;S10&gt;/D_yaw</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.D_yaw_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:477')" name="code2model" class="code2model">&lt;S9&gt;/Gain</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Gain_Gain_o
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:481')" name="code2model" class="code2model">&lt;S9&gt;/Saturation</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Saturation_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:481')" name="code2model" class="code2model">&lt;S9&gt;/Saturation</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Saturation_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:479')" name="code2model" class="code2model">&lt;S9&gt;/P_xy</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.P_xy_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  2]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:475')" name="code2model" class="code2model">&lt;S9&gt;/D_xy</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.D_xy_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  2]
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:433')" name="code2model" class="code2model">&lt;S4&gt;/P_pr</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.P_pr_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[2  1]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:431')" name="code2model" class="code2model">&lt;S4&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.DiscreteTimeIntegrator_gainval
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:431')" name="code2model" class="code2model">&lt;S4&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.DiscreteTimeIntegrator_IC
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:431')" name="code2model" class="code2model">&lt;S4&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.DiscreteTimeIntegrator_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:431')" name="code2model" class="code2model">&lt;S4&gt;/Discrete-Time Integrator</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.DiscreteTimeIntegrator_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:432')" name="code2model" class="code2model">&lt;S4&gt;/I_pr</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.I_pr_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:428')" name="code2model" class="code2model">&lt;S4&gt;/D_pr</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.D_pr_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[2  1]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:529')" name="code2model" class="code2model">&lt;S7&gt;/ThrustToMotorCommand</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.ThrustToMotorCommand_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:528')" name="code2model" class="code2model">&lt;S7&gt;/Saturation5</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Saturation5_UpperSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:528')" name="code2model" class="code2model">&lt;S7&gt;/Saturation5</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Saturation5_LowerSat
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:527')" name="code2model" class="code2model">&lt;S7&gt;/MotorDirections</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.MotorDirections_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+[1  4]
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:429')" name="code2model" class="code2model">&lt;S4&gt;/Delay</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Delay_InitialCondition
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="odd">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:436')" name="code2model" class="code2model">&lt;S4&gt;/antiWU_Gain</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.antiWU_Gain_Gain
+</td>
+<td width="21%" align="left" valign="top">
+real32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+<tr class="even">
+<td width="42%" align="left" valign="top">
+<a href="matlab:coder.internal.code2model('flightController:429')" name="code2model" class="code2model">&lt;S4&gt;/Delay</a>
+</td>
+<td width="26%" align="left" valign="top">
+flightController_P.Delay_DelayLength
+</td>
+<td width="21%" align="left" valign="top">
+uint32_T
+</td>
+<td width="10%" align="right" valign="top">
+1
+</td>
+
+</tr>
+
+</table>
+<h3>
+<a name="sec_Data_Stores">
+Data Stores
+</a>
+
+</h3>
+<p>
+No data stores in the model; note that this report lists only data stores with non-auto storage class and global data stores
+</p>
+
+</body>
+
+</html>
